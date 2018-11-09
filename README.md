@@ -8,3 +8,5 @@ listener.py: Use it to to deliver messages accumalted in pubsub to a bigquery ta
 
 ![alt text](https://github.com/maryamhanifpour/pusub2bqlistener/blob/master/Listener.PNG)
 
+Cons:
+Streaming inserts to Bigquery unless Subscriber App delivers data to Cloud Storage and Cloud Storage triggers another job to batch load the data to Bigquery.
