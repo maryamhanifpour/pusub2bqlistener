@@ -1,4 +1,3 @@
-# pusub2bqlistener
 
 A subscriber script to deliver messages accumulated in pubsub to bigquery. 
 
